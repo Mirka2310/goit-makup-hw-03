@@ -105,6 +105,7 @@ address {
   gap: 40px;
 }
 .header-contacts-content {
+  padding: 24px 0 24px;
   margin-right: 0;
 }
 .header-contacts-communication {
@@ -130,15 +131,18 @@ address {
   height: 600px;
   flex-shrink: 0;
 }
+.container {
+  padding: 188px 0 188px;
+}
 .first-title {
   color: #fff;
-  width: 496px;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   padding-left: 472px;
+  max-width: 496px;
 }
 
 .first-btn-order {
@@ -154,8 +158,12 @@ address {
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
-  border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .first-btn-order:hover,
 .first-btn-order:focus {
