@@ -168,7 +168,7 @@ address {
 .first-btn-order:focus {
   background-color: #404bbf;
 }
-.container-two {
+.container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -188,10 +188,9 @@ address {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
+  clip-path: inset 100%;
+  clip: rect 0 0 0 0;
   overflow: hidden;
 }
 .features-list {
@@ -220,7 +219,7 @@ address {
 .third {
   background-color: #f4f4fd;
 }
-.container-third {
+.container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
