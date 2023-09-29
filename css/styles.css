@@ -32,8 +32,7 @@ address {
 }
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px 0 15px;
   margin: 0 auto;
   outline: 2px solid red;
   display: flex;
@@ -60,6 +59,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 24px 0 24px;
 }
 .header-navigation-logo-web:active,
 .header-navigation-logo-web:hover,
@@ -130,9 +130,9 @@ address {
   width: 1440px;
   height: 600px;
   flex-shrink: 0;
+  padding: 188px 0 188px;
 }
 .container {
-  padding: 188px 0 188px;
 }
 .first-title {
   color: #fff;
