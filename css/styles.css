@@ -36,6 +36,7 @@ address {
   padding-right: 15px;
   margin: 0 auto;
   outline: 2px solid red;
+  display: flex;
 }
 
 .header {
@@ -45,6 +46,8 @@ address {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-navigation {
+  display: flex;
+  align-items: center;
 }
 
 .header-navigation-logo-web {
@@ -56,6 +59,7 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .header-navigation-logo-web:active,
 .header-navigation-logo-web:hover,
@@ -72,8 +76,12 @@ address {
   text-transform: uppercase;
 }
 .header-navigation-content {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0 24px;
 }
 .header-navigation-link {
+  margin-right: 40px;
 }
 .header-navigation-btns {
   color: #2e2f42;
@@ -88,10 +96,13 @@ address {
 }
 .header-contacts {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 .header-contacts-list {
 }
 .header-contacts-content {
+  margin-right: 0;
 }
 .header-contacts-communication {
   color: #434455;
