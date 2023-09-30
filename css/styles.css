@@ -46,12 +46,12 @@ address {
 .header {
   background-color: #fff;
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 .header-navigation {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding: 24px 0;
 }
 
 .header-navigation-logo-web {
@@ -101,7 +101,6 @@ address {
 }
 .header-contacts {
   font-style: normal;
-  padding: 24px 0;
 }
 .header-contacts-list {
   display: flex;
