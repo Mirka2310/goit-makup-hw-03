@@ -41,6 +41,7 @@ address {
   display: flex;
   height: 72px;
   justify-content: space-between;
+  padding: 24px 0;
 }
 
 .header {
@@ -85,7 +86,6 @@ address {
   gap: 40px;
 }
 .header-navigation-link {
-  padding: 24px 0;
   display: flex;
 }
 .header-navigation-btns {
@@ -106,7 +106,6 @@ address {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-contacts-content {
 }
