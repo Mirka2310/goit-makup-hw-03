@@ -103,12 +103,12 @@ address {
   font-style: normal;
 }
 .header-contacts-list {
-  align-items: center;
   display: flex;
+  align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-contacts-content {
-  padding: 24px 0;
 }
 .header-contacts-communication {
   color: #434455;
@@ -116,8 +116,6 @@ address {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.header-contacts-communication {
 }
 
 .header-contacts-communication:hover,
