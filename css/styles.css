@@ -33,7 +33,6 @@ address {
 .container {
   width: 1158px;
   margin: 0 auto;
-  outline: 2px solid red;
   padding: 0 15px 0 15px;
 }
 .header-container {
@@ -84,6 +83,7 @@ address {
   align-items: center;
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-navigation-link {
   display: flex;
@@ -101,6 +101,7 @@ address {
 }
 .header-contacts {
   font-style: normal;
+  padding: 24px 0;
 }
 .header-contacts-list {
   display: flex;
@@ -312,6 +313,8 @@ address {
 /** =========third========== */
 
 .footer {
+  width: 1440px;
+  height: 312px;
   background: #2e2f42;
   padding: 100px 0 100px;
 }
