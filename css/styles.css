@@ -83,7 +83,6 @@ address {
   align-items: center;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-navigation-link {
   display: flex;
@@ -101,7 +100,6 @@ address {
 }
 .header-contacts {
   font-style: normal;
-  padding: 24px 0;
 }
 .header-contacts-list {
   display: flex;
@@ -173,6 +171,7 @@ address {
   background-color: #404bbf;
 }
 .first-container {
+  padding: 0 15px 0 15px;
 }
 
 .features {
@@ -198,6 +197,7 @@ address {
   width: calc((100% - 72px) / 4);
 }
 .features-container {
+  padding: 0 15px 0 15px;
 }
 .features-subtitle {
   color: #2e2f42;
@@ -222,6 +222,7 @@ address {
 .third-container {
   margin: 0 auto;
   padding-top: 120px;
+  padding: 0 15px 0 15px;
 }
 .third-title {
   color: #2e2f42;
@@ -268,6 +269,10 @@ address {
 .fourth {
   padding: 120px 0 120px 0;
 }
+.fourth-container {
+  padding: 0 15px 0 15px;
+}
+
 .container-service {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
