@@ -323,6 +323,11 @@ address {
   background: #2e2f42;
   padding: 100px 0 100px;
 }
+.footer-container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
 .footer-logo-web {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
