@@ -40,7 +40,7 @@ address {
   display: flex;
   height: 72px;
   justify-content: space-between;
-  padding: 24px 0;
+  padding: 0 15px 0 15px;
 }
 
 .header {
@@ -51,6 +51,7 @@ address {
   display: flex;
   align-items: center;
   flex-grow: 1;
+  padding: 24px 0;
 }
 
 .header-navigation-logo-web {
@@ -100,6 +101,7 @@ address {
 }
 .header-contacts {
   font-style: normal;
+  padding: 24px 0;
 }
 .header-contacts-list {
   display: flex;
