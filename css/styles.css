@@ -46,7 +46,6 @@ address {
 .header {
   background-color: #fff;
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 .header-navigation {
   display: flex;
@@ -94,11 +93,14 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0 24px;
 }
+
 .header-navigation-btns:hover,
 .header-navigation-btns:focus {
   color: #404bbf;
 }
+
 .header-contacts {
   font-style: normal;
 }
